@@ -3363,7 +3363,7 @@ Other Style Guides
     ```
 
   <a name="naming--PascalCase"></a><a name="22.3"></a>
-  - [23.3](#naming--PascalCase) Use PascalCase only when naming constructors or classes. eslint: [`new-cap`](https://eslint.org/docs/rules/new-cap)
+  - [23.3](#naming--PascalCase) Use PascalCase only when naming constructors, classes, or React components. eslint: [`new-cap`](https://eslint.org/docs/rules/new-cap)
 
     ```javascript
     // bad
@@ -3381,6 +3381,12 @@ Other Style Guides
         this.name = options.name;
       }
     }
+
+    const CheeryReactComponent = () => {
+      return (
+        <div>Hi!</div>
+      )
+    } 
 
     const good = new User({
       name: 'yup',
