@@ -574,17 +574,17 @@ Other Style Guides
 ## Strings
 
   <a name="strings--quotes"></a><a name="6.1"></a>
-  - [6.1](#strings--quotes) Use single quotes `''` for strings. eslint: [`quotes`](https://eslint.org/docs/rules/quotes)
+  - [6.1](#strings--quotes) Use double quotes `''` for strings. eslint: [`quotes`](https://eslint.org/docs/rules/quotes)
 
     ```javascript
     // bad
-    const name = "Capt. Janeway";
+    const name = 'Capt. Janeway';
 
     // bad - template literals should contain interpolation or newlines
     const name = `Capt. Janeway`;
 
     // good
-    const name = 'Capt. Janeway';
+    const name = "Capt. Janeway";
     ```
 
   <a name="strings--line-length"></a><a name="6.2"></a>
